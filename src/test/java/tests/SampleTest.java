@@ -33,6 +33,12 @@ public class SampleTest extends BaseTest {
         String title = driver.getTitle();
         System.out.println("Page title: " + title);
         Assert.assertTrue(title.length() > 0, "Title should not be empty");
+        
+        System.out.println("Branch develop");
+        System.out.println("Branch develop2");
+        System.out.println("Branch develop3");
+        System.out.println("Branch develop4");
+
     }
 
     @AfterMethod
