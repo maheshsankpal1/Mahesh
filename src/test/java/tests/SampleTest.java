@@ -25,6 +25,8 @@ public class SampleTest extends BaseTest {
         // This is an example. Replace with real locators and data for your app.
         // If example.com doesn't have these fields, test will fail.
         // For demo, we'll just verify page title contains 'Example Domain' (example.com)
+        System.out.println("Running sampleFlow test..."); // Git test change
+
         String title = driver.getTitle();
         System.out.println("Page title: " + title);
         Assert.assertTrue(title.length() > 0, "Title should not be empty");
