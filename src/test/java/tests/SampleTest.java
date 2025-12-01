@@ -26,6 +26,9 @@ public class SampleTest extends BaseTest {
         // If example.com doesn't have these fields, test will fail.
         // For demo, we'll just verify page title contains 'Example Domain' (example.com)
         System.out.println("Running sampleFlow test..."); // Git test change
+        System.out.println("Running 1");
+        System.out.println("Running 2");
+        System.out.println("Running 3");
 
         String title = driver.getTitle();
         System.out.println("Page title: " + title);
