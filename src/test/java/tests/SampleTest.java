@@ -41,6 +41,17 @@ public class SampleTest extends BaseTest {
 
     }
 
+    
+    public void sampleFlow2() {
+        // This is an example. Replace with real locators and data for your app.
+        // If example.com doesn't have these fields, test will fail.
+        // For demo, we'll just verify page title contains 'Example Domain' (example.com)
+        System.out.println("Running sampleFlow test..."); // Git test change
+        System.out.println("Running 1");
+        System.out.println("Running 2");
+        System.out.println("Running 3");
+    }
+
     @AfterMethod
     public void tearDownTest() {
         tearDown();
